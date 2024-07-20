@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Pierogi",
+        "ingredients": ["Pomme de terres", "Oignon", "Crème Fraiche", "Farine de blé"]
+    },
+    {
+        "name": "Pain maison",
+        "ingredients": ["Farine de blé", "Oignon"]
+    },
+    {
+        "name": "Purée de pommes de terre",
+        "ingredients": ["Pomme de terres", "Crème Fraiche"]
+    }
+]

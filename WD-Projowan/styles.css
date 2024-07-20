@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	max-width: 1200px;
+	margin: auto;
+	padding: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 16px;
+	padding: 8px;
+	background-color: #7451eb;
+	text-align: center;
+	color: white;
+}
+header img {
+	height: 60px;
+	margin-left: 1rem;
+}
+header h1 {
+	flex-grow: 1;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+.filters {
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px gray;
+	margin: 8px;
+	padding: 8px;
+	min-width: 300px;
+	min-height: 400px;
+}
+.filters h3 {
+	text-align: center;
+}
+
+.cards {
+	flex: 1;
+	margin: 8px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 4px;
+}
+.cards article {
+	border: 1px solid black;
+	padding: 4px;
+}
+.cards article img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 200px;
+}
+.cards article p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.cards article h2 {
+	text-align: center;
+}
+
+.selected {
+    border: 2px solid #00f; /* Ajoute une bordure bleue pour les éléments sélectionnés */
+    padding: 5px; /* Ajoute un peu d'espace autour de la bordure */
+}
